@@ -1,0 +1,952 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="container nav-div">
+        <div class="nav-seach">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#home">
+                        <div class="text-center"> <i class="fas fa-shuttle-van mb-2"></i></div>
+                        <div class="text-center">Tour du lịch<br>trọn gói</div>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu1">
+                        <div class="text-center"><i class="fas fa-hotel mb-2"></i></div>
+                        <div class="text-center"> Khách sạn <small class="badge btn-danger">Ưu đãi hot</small></div>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu2">
+                        <div class="text-center"><i class="fas fa-hotel mb-2"></i></div>
+                        <div class="text-center">Combo Xe Vé máy bay + khách sạn</div>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu2">
+                        <div class="text-center"><i class="fas fa-hotel mb-2"></i></div>
+                        <div class="text-center">Combo Xe + Khách sạn</div>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu3">
+                        <div class="text-center"><i class="fa-solid fa-plane-up mb-2"></i></div>
+                        <div class="text-center">Vé máy bay</div>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#menu3">
+                        <div class="text-center"><i class="fa-solid fa-plane-up mb-2"></i></div>
+                        <div class="text-center">Tra cứu</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+               <div class="p-4">
+                   <div class="searchbox-tour__selector">
+                       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                           <li class="nav-item me-3" role="presentation">
+                               <button class="nav-link dltn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                   Du lịch trong nước
+                               </button>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                               <button class="nav-link dlnn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                   Du lịch nước
+                                   ngoài
+                               </button>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h3>Menu 3</h3>
+                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="home-page__promotion mb-5">
+        <h4 class="home-page__title">Ưu đãi</h4>
+        <div class="owl-carousel owl-theme autoplay">
+            <div class="promotion-image">
+                <img src="https://media.travel.com.vn/Advertisings/bn_220627_Tour và goi DV_24-06-2022_1024x 768.jpg" alt="Tour miền bắc">
+            </div>
+            <div class="promotion-image">
+                <img src="https://media.travel.com.vn/Advertisings/bn_220704_gdv thai-lan.jpg" alt="GDV Thái Lan">
+            </div>
+            <div class="promotion-image">
+                <img src="https://media.travel.com.vn/Advertisings/bn_220627_Tour và goi DV_24-06-2022_1024x 768 copy 3_1656296202.jpg" alt="Tour Thái Lan">
+            </div>
+            <div class="promotion-image">
+                <img src="https://media.travel.com.vn/Advertisings/bn_220627_Tour và goi DV_24-06-2022_1024x 768 copy 4.jpg" alt="GDV Đà Nẵng">
+            </div>
+            <div class="promotion-image">
+                <img src="https://media.travel.com.vn/Advertisings/bn_220627_Tour và goi DV_24-06-2022_1024x 768 copy 2.jpg" alt="Đông Âu lễ hội bia">
+            </div>
+            
+        </div>
+    </section>
+    <section class="home-page__last-deal mb-4">
+        <h3 class="home-page__title mb-4" style="margin-bottom:40px !important">Ưu đãi tour giờ chót</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 d-none d-lg-flex">
+            <div class="col-md-4">
+                <div class="card tour-item">
+                    <div class="position-relative">
+                        <div class="tour-item__image">
+                            <a href="/tourNDSGN548-149-300722XE-V-F/da-lat-que-garden-thac-bobla-khu-du-lich-kim-ngan-hills-ca-phe-me-linh-tour-gia-soc.aspx?LM=1" title="Đà Lạt - Que Garden - Thác Bobla - Khu Du Lịch Kim Ngân Hills - Cà Phê Mê Linh (Tour Giá Sốc)">
+                                <img src="https://media.travel.com.vn/LastMinute/lm_220727120246_422389.jpg" class="card-img-top img-fluid" alt="Đà Lạt - Que Garden - Thác Bobla - Khu Du Lịch Kim Ngân Hills - Cà Phê Mê Linh (Tour Giá Sốc)" id="imglastminute_7b764993-635c-4f0c-9003-09b298f8d453">
+                            </a>
+                            <span class="tour-item__image-inner__icon-favorite addlastminute">
+                                <input type="hidden" value="7b764993-635c-4f0c-9003-09b298f8d453">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_7b764993-635c-4f0c-9003-09b298f8d453"></i>
+                                </a>
+                            </span>
+                            <div class="tour-item__image-inner__bottom">
+                                <span class="tour-item__image-inner__bottom__category">
+                                    <i class="icon icon--good-price-tour"></i> Giờ chót
+                                </span>
+                            </div>
+                            <div class="tour-item__image-inner__summary position-absolute">
+                                <div class="tour-item__image-inner__summary__rating d-flex justify-content-end mb-2">
+                                    <span>9.4</span>
+                                </div>
+                                <div class="tour-item__image-inner__summary__review">
+                                    <h6 class="tour-item__image-inner__summary__feedback mb-0 text-end">
+                                        Tuyệt vời
+                                    </h6>
+                                    <p class="tour-item__image-inner__summary__review mb-1 text-end">
+                                        358 quan tâm
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="tour-item__date mb-1">30/07/2022 - 4 ngày</p>
+                        <p class="card-text tour-item__title mb-1">
+                            <a href="/tourNDSGN548-149-300722XE-V-F/da-lat-que-garden-thac-bobla-khu-du-lich-kim-ngan-hills-ca-phe-me-linh-tour-gia-soc.aspx?LM=1" title="Đà Lạt - Que Garden - Thác Bobla - Khu Du Lịch Kim Ngân Hills - Cà Phê Mê Linh (Tour Giá Sốc)">
+                                Đà Lạt - Que Garden - Thác Bobla - Khu Du Lịch Kim Ngân Hills - Cà Phê Mê Linh (Tour Giá Sốc)
+                            </a>
+                        </p>
+                        <div class="tour-item__code">
+                            <div>Mã tour:</div>
+                            <div>
+                                <i class="fal fa-ticket"></i>
+                                NDSGN548-149-300722XE-V-F
+                            </div>
+                        </div>
+                        <p class="tour-item__departure mb-3">Nơi khởi hành: TP. Hồ Chí Minh</p>
+                        <div class="tour-item__price mb-2 w-100">
+                            <div class="tour-item__price__wrapper">
+                                <div class="tour-item__price--old">
+                                    Giá
+                                    <span class="tour-item__price--old__number">3,290,000₫</span>
+                                </div>
+                                <div class="tour-item__price--current">
+                                    <span class="tour-item__price--current__number pe-2 mb-0">2,990,000₫</span>
+                                    <span class="tour-item__price--current__discount small p-1">9% GIẢM</span>
+                                </div>
+                                <div class="tour-item__price__timer py-2">
+                                    <span id="countDownDayNDSGN548-149-300722XE-V-F">Còn 00 ngày 05:23:51</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer tour-item__footer px-3 mb-2 w-100 d-inline-flex justify-content-between align-items-center">
+                        <div class="tour-item__footer__add-to-compare d-inline-flex align-items-center addcompare">
+                            <i class="icon icon--plus pe-1"></i>
+                            <input type="hidden" value="7b764993-635c-4f0c-9003-09b298f8d453">
+                            <a href="#" id="AddCompare_7b764993-635c-4f0c-9003-09b298f8d453">Thêm vào so sánh</a>
+                        </div>
+                        <div class="tour-item__footer__available-seat d-inline-flex align-items-center">
+                            <span class="tour-item__footer__available-seat--text me-1">Số chỗ còn</span> <span class="tour-item__footer__available-seat--number">6</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card tour-item">
+                    <div class="position-relative">
+                        <div class="tour-item__image">
+                            <a href="/tourNDSGN590-050-030822VU-V/quy-nhon-phu-yen-eo-gio-ky-co-tour-tiet-kiem.aspx?LM=1" title="Quy Nhơn - Phú Yên - Eo Gió - Kỳ Co (Tour Tiết Kiệm)">
+                                <img src="https://media.travel.com.vn/LastMinute/lm_220727044126_267419.jpg" class="card-img-top img-fluid" alt="Quy Nhơn - Phú Yên - Eo Gió - Kỳ Co (Tour Tiết Kiệm)" id="imglastminute_71c242e0-6998-4132-bac0-c62662a90446">
+                            </a>
+                            <span class="tour-item__image-inner__icon-favorite addlastminute">
+                                <input type="hidden" value="71c242e0-6998-4132-bac0-c62662a90446">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_71c242e0-6998-4132-bac0-c62662a90446"></i>
+                                </a>
+                            </span>
+                            <div class="tour-item__image-inner__bottom">
+                                <span class="tour-item__image-inner__bottom__category">
+                                    <i class="icon icon--good-price-tour"></i> Giờ chót
+                                </span>
+                            </div>
+                            <div class="tour-item__image-inner__summary position-absolute">
+                                <div class="tour-item__image-inner__summary__rating d-flex justify-content-end mb-2">
+                                    <span>9.4</span>
+                                </div>
+                                <div class="tour-item__image-inner__summary__review">
+                                    <h6 class="tour-item__image-inner__summary__feedback mb-0 text-end">
+                                        Tuyệt vời
+                                    </h6>
+                                    <p class="tour-item__image-inner__summary__review mb-1 text-end">
+                                        358 quan tâm
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="tour-item__date mb-1">03/08/2022 - 4 ngày</p>
+                        <p class="card-text tour-item__title mb-1">
+                            <a href="/tourNDSGN590-050-030822VU-V/quy-nhon-phu-yen-eo-gio-ky-co-tour-tiet-kiem.aspx?LM=1" title="Quy Nhơn - Phú Yên - Eo Gió - Kỳ Co (Tour Tiết Kiệm)">
+                                Quy Nhơn - Phú Yên - Eo Gió - Kỳ Co (Tour Tiết Kiệm)
+                            </a>
+                        </p>
+                        <div class="tour-item__code">
+                            <div>Mã tour:</div>
+                            <div>
+                                <i class="fal fa-ticket"></i>
+                                NDSGN590-050-030822VU-V
+                            </div>
+                        </div>
+                        <p class="tour-item__departure mb-3">Nơi khởi hành: TP. Hồ Chí Minh</p>
+                        <div class="tour-item__price mb-2 w-100">
+                            <div class="tour-item__price__wrapper">
+                                <div class="tour-item__price--old">
+                                    Giá
+                                    <span class="tour-item__price--old__number">6,390,000₫</span>
+                                </div>
+                                <div class="tour-item__price--current">
+                                    <span class="tour-item__price--current__number pe-2 mb-0">6,090,000₫</span>
+                                    <span class="tour-item__price--current__discount small p-1">5% GIẢM</span>
+                                </div>
+                                <div class="tour-item__price__timer py-2">
+                                    <span id="countDownDayNDSGN590-050-030822VU-V">Còn 00 ngày 06:02:31</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer tour-item__footer px-3 mb-2 w-100 d-inline-flex justify-content-between align-items-center">
+                        <div class="tour-item__footer__add-to-compare d-inline-flex align-items-center addcompare">
+                            <i class="icon icon--plus pe-1"></i>
+                            <input type="hidden" value="71c242e0-6998-4132-bac0-c62662a90446">
+                            <a href="#" id="AddCompare_71c242e0-6998-4132-bac0-c62662a90446">Thêm vào so sánh</a>
+                        </div>
+                        <div class="tour-item__footer__available-seat d-inline-flex align-items-center">
+                            <span class="tour-item__footer__available-seat--text me-1">Số chỗ còn</span> <span class="tour-item__footer__available-seat--number">6</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card tour-item">
+                    <div class="position-relative">
+                        <div class="tour-item__image">
+                            <a href="/tourNDSGN579-026-100822XE-V/buon-ma-thuot-pleiku-kon-tum-kdl-mang-den-tour-tiet-kiem-chuong-trinh-moi.aspx?LM=1" title="Buôn Ma Thuột - Pleiku - Kon Tum - KDL Măng Đen (Tour Tiết Kiệm) - Chương trình mới">
+                                <img src="https://media.travel.com.vn/LastMinute/lm_220725093107_176352.jpg" class="card-img-top img-fluid" alt="Buôn Ma Thuột - Pleiku - Kon Tum - KDL Măng Đen (Tour Tiết Kiệm) - Chương trình mới" id="imglastminute_df803815-9849-4f9b-9a56-f7d00d585300">
+                            </a>
+                            <span class="tour-item__image-inner__icon-favorite addlastminute">
+                                <input type="hidden" value="df803815-9849-4f9b-9a56-f7d00d585300">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_df803815-9849-4f9b-9a56-f7d00d585300"></i>
+                                </a>
+                            </span>
+                            <div class="tour-item__image-inner__bottom">
+                                <span class="tour-item__image-inner__bottom__category">
+                                    <i class="icon icon--good-price-tour"></i> Giờ chót
+                                </span>
+                            </div>
+                            <div class="tour-item__image-inner__summary position-absolute">
+                                <div class="tour-item__image-inner__summary__rating d-flex justify-content-end mb-2">
+                                    <span>9.4</span>
+                                </div>
+                                <div class="tour-item__image-inner__summary__review">
+                                    <h6 class="tour-item__image-inner__summary__feedback mb-0 text-end">
+                                        Tuyệt vời
+                                    </h6>
+                                    <p class="tour-item__image-inner__summary__review mb-1 text-end">
+                                        358 quan tâm
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="tour-item__date mb-1">10/08/2022 - 5 ngày</p>
+                        <p class="card-text tour-item__title mb-1">
+                            <a href="/tourNDSGN579-026-100822XE-V/buon-ma-thuot-pleiku-kon-tum-kdl-mang-den-tour-tiet-kiem-chuong-trinh-moi.aspx?LM=1" title="Buôn Ma Thuột - Pleiku - Kon Tum - KDL Măng Đen (Tour Tiết Kiệm) - Chương trình mới">
+                                Buôn Ma Thuột - Pleiku - Kon Tum - KDL Măng Đen (Tour Tiết Kiệm) - Chương trình mới
+                            </a>
+                        </p>
+                        <div class="tour-item__code">
+                            <div>Mã tour:</div>
+                            <div>
+                                <i class="fal fa-ticket"></i>
+                                NDSGN579-026-100822XE-V
+                            </div>
+                        </div>
+                        <p class="tour-item__departure mb-3">Nơi khởi hành: TP. Hồ Chí Minh</p>
+                        <div class="tour-item__price mb-2 w-100">
+                            <div class="tour-item__price__wrapper">
+                                <div class="tour-item__price--old">
+                                    Giá
+                                    <span class="tour-item__price--old__number">4,990,000₫</span>
+                                </div>
+                                <div class="tour-item__price--current">
+                                    <span class="tour-item__price--current__number pe-2 mb-0">4,690,000₫</span>
+                                    <span class="tour-item__price--current__discount small p-1">6% GIẢM</span>
+                                </div>
+                                <div class="tour-item__price__timer py-2">
+                                    <span id="countDownDayNDSGN579-026-100822XE-V">Còn 00 ngày 06:52:12</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer tour-item__footer px-3 mb-2 w-100 d-inline-flex justify-content-between align-items-center">
+                        <div class="tour-item__footer__add-to-compare d-inline-flex align-items-center addcompare">
+                            <i class="icon icon--plus pe-1"></i>
+                            <input type="hidden" value="df803815-9849-4f9b-9a56-f7d00d585300">
+                            <a href="#" id="AddCompare_df803815-9849-4f9b-9a56-f7d00d585300">Thêm vào so sánh</a>
+                        </div>
+                        <div class="tour-item__footer__available-seat d-inline-flex align-items-center">
+                            <span class="tour-item__footer__available-seat--text me-1">Số chỗ còn</span> <span class="tour-item__footer__available-seat--number">9</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="home-page__see-all text-end mt-4">
+            <a href="/du-lich-gio-chot.aspx">
+                <button type="button" class="btn px-4 py-2 fw-bold d-inline-flex align-items-center">
+                    Xem tất cả <i class="icon icon--arrow-narrow-left ms-2"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="home-page__combo mb-4" id="divCheckDataUuDaiDacBiet">
+        <h3 class="home-page__title mb-4 d-flex justify-content-between align-items-center">
+            Gói ưu đãi đặc biệt
+        </h3>
+        <div id="divUuDaiDacBiet">
+
+
+            <div class="d-none d-lg-block">
+                <div class="card mb-3 product-item mb-4">
+                    <div class="row g-0">
+                        <div class="col-lg-3 col-12 product-item__image position-relative">
+                            <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                <img src="https://media.travel.com.vn/Combo/s_img_18052022fb39ad98-436a-40ef-a584-c0f751464709.jpg" class="img-fluid" alt="Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard  + Ăn sáng." id="imgtourspecial_3931872f-5a96-4b29-bb70-86c829f1c802">
+                            </a>
+                            <div class="addtourspecial">
+                                <input type="hidden" value="3931872f-5a96-4b29-bb70-86c829f1c802">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_3931872f-5a96-4b29-bb70-86c829f1c802"></i>
+                                </a>
+                            </div>
+                            <div class="product-item__image__category-inner mb-2 p-2">
+                                <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 product-item__detail">
+                            <div class="card-body">
+                                <div class="product-item__detail__category mb-2 p-2 d-none d-lg-inline-block">
+                                    <a href="#" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                                </div>
+                                <h5 class="card-title product-item__detail__title">
+                                    <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                        Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng.
+                                    </a>
+                                </h5>
+
+                                <div class="product-item__detail__rating-star mb-2">
+                                    <div class="d-inline-block star-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__price d-lg-none mt-3">
+                                    <div class="card-text">
+                                        Giá chỉ từ
+                                    </div>
+                                    <div class="product-item__summary__price--old">
+                                    </div>
+                                    <div class="">
+                                        <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                        <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-6">
+                                            <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                                <i class="fal fa-shopping-cart"></i>
+                                                <label>
+                                                    Đặt ngay
+                                                </label>
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="btn product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                                <label>
+                                                    Ngày khác
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        Ngày đi 19/08/2022
+                                    </p>
+                                    <p class="btn-promotion">đã bao gồm trong giá</p>
+                                </div>
+                                <p class="card-text hidden-xs hidden-xxs hidden-sm">
+                                    <small class="text-muted">Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng</small>
+                                </p>
+                                <div class="product-item__detail__review mb-3 d-none d-lg-flex">
+                                    <div class="product-item__detail__review--point">
+                                        <span class="mb-2">10</span>
+                                    </div>
+                                    <div class="product-item__detail__review--feedback">
+                                        <h6 class="mb-1 fw-bold">Tuyệt vời</h6>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__location d-none d-lg-block">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    96 Xuân Diệu, Quy Nhơn, Việt Nam
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 product-item__summary">
+                            <span class="tour-item__footer__add-to-compare hardCode d-none">
+                                <i class="icon icon--plus me-1"></i>
+                                Thêm vào so sánh
+                            </span>
+                            <div class="product-item__summary__price d-none d-lg-block">
+                                <div class="card-text price-min">
+                                    Giá chỉ từ
+                                </div>
+                                <div class="product-item__summary__price--old">
+                                </div>
+                                <div class="">
+                                    <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                    <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                </div>
+                                <p class="card-text">
+                                    Ngày đi 19/08/2022
+                                </p>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="btn btn-sm product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                            Ngày khác
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                            <label>
+                                                Đặt ngay
+                                            </label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="btn-promotion mb-2">đã bao gồm trong giá</p>
+                            </div>
+                            <div class="product-item__summary__review mb-3 d-lg-none">
+                                <div class="product-item__summary__review--point">
+                                    <span>10</span>
+                                </div>
+                                <div class="product-item__summary__review--feedback">
+                                    <h6 class="mb-1 fw-bold hardCode">Rất tốt</h6>
+                                    <p class="mb-1">267 quan tâm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 product-item mb-4">
+                    <div class="row g-0">
+                        <div class="col-lg-3 col-12 product-item__image position-relative">
+                            <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                <img src="https://media.travel.com.vn/Combo/s_img_18052022fb39ad98-436a-40ef-a584-c0f751464709.jpg" class="img-fluid" alt="Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard  + Ăn sáng." id="imgtourspecial_3931872f-5a96-4b29-bb70-86c829f1c802">
+                            </a>
+                            <div class="addtourspecial">
+                                <input type="hidden" value="3931872f-5a96-4b29-bb70-86c829f1c802">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_3931872f-5a96-4b29-bb70-86c829f1c802"></i>
+                                </a>
+                            </div>
+                            <div class="product-item__image__category-inner mb-2 p-2">
+                                <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 product-item__detail">
+                            <div class="card-body">
+                                <div class="product-item__detail__category mb-2 p-2 d-none d-lg-inline-block">
+                                    <a href="#" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                                </div>
+                                <h5 class="card-title product-item__detail__title">
+                                    <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                        Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng.
+                                    </a>
+                                </h5>
+
+                                <div class="product-item__detail__rating-star mb-2">
+                                    <div class="d-inline-block star-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__price d-lg-none mt-3">
+                                    <div class="card-text">
+                                        Giá chỉ từ
+                                    </div>
+                                    <div class="product-item__summary__price--old">
+                                    </div>
+                                    <div class="">
+                                        <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                        <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-6">
+                                            <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                                <i class="fal fa-shopping-cart"></i>
+                                                <label>
+                                                    Đặt ngay
+                                                </label>
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="btn product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                                <label>
+                                                    Ngày khác
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        Ngày đi 19/08/2022
+                                    </p>
+                                    <p class="btn-promotion">đã bao gồm trong giá</p>
+                                </div>
+                                <p class="card-text hidden-xs hidden-xxs hidden-sm">
+                                    <small class="text-muted">Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng</small>
+                                </p>
+                                <div class="product-item__detail__review mb-3 d-none d-lg-flex">
+                                    <div class="product-item__detail__review--point">
+                                        <span class="mb-2">10</span>
+                                    </div>
+                                    <div class="product-item__detail__review--feedback">
+                                        <h6 class="mb-1 fw-bold">Tuyệt vời</h6>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__location d-none d-lg-block">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    96 Xuân Diệu, Quy Nhơn, Việt Nam
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 product-item__summary">
+                            <span class="tour-item__footer__add-to-compare hardCode d-none">
+                                <i class="icon icon--plus me-1"></i>
+                                Thêm vào so sánh
+                            </span>
+                            <div class="product-item__summary__price d-none d-lg-block">
+                                <div class="card-text price-min">
+                                    Giá chỉ từ
+                                </div>
+                                <div class="product-item__summary__price--old">
+                                </div>
+                                <div class="">
+                                    <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                    <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                </div>
+                                <p class="card-text">
+                                    Ngày đi 19/08/2022
+                                </p>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="btn btn-sm product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                            Ngày khác
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                            <label>
+                                                Đặt ngay
+                                            </label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="btn-promotion mb-2">đã bao gồm trong giá</p>
+                            </div>
+                            <div class="product-item__summary__review mb-3 d-lg-none">
+                                <div class="product-item__summary__review--point">
+                                    <span>10</span>
+                                </div>
+                                <div class="product-item__summary__review--feedback">
+                                    <h6 class="mb-1 fw-bold hardCode">Rất tốt</h6>
+                                    <p class="mb-1">267 quan tâm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 product-item mb-4">
+                    <div class="row g-0">
+                        <div class="col-lg-3 col-12 product-item__image position-relative">
+                            <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                <img src="https://media.travel.com.vn/Combo/s_img_18052022fb39ad98-436a-40ef-a584-c0f751464709.jpg" class="img-fluid" alt="Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard  + Ăn sáng." id="imgtourspecial_3931872f-5a96-4b29-bb70-86c829f1c802">
+                            </a>
+                            <div class="addtourspecial">
+                                <input type="hidden" value="3931872f-5a96-4b29-bb70-86c829f1c802">
+                                <a href="#">
+                                    <i class="icon icon--heart" id="TourLike_3931872f-5a96-4b29-bb70-86c829f1c802"></i>
+                                </a>
+                            </div>
+                            <div class="product-item__image__category-inner mb-2 p-2">
+                                <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 product-item__detail">
+                            <div class="card-body">
+                                <div class="product-item__detail__category mb-2 p-2 d-none d-lg-inline-block">
+                                    <a href="#" rel="noopener noreferrer">Vé máy bay + Khách sạn</a>
+                                </div>
+                                <h5 class="card-title product-item__detail__title">
+                                    <a href="/combo-du-lich/Combo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011.aspx?tourId=3931872f-5a96-4b29-bb70-86c829f1c802" rel="noopener noreferrer">
+                                        Combo 3N2Đ Vietnam Taste Quy Nhơn 4 sao: Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng.
+                                    </a>
+                                </h5>
+
+                                <div class="product-item__detail__rating-star mb-2">
+                                    <div class="d-inline-block star-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__price d-lg-none mt-3">
+                                    <div class="card-text">
+                                        Giá chỉ từ
+                                    </div>
+                                    <div class="product-item__summary__price--old">
+                                    </div>
+                                    <div class="">
+                                        <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                        <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-6">
+                                            <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                                <i class="fal fa-shopping-cart"></i>
+                                                <label>
+                                                    Đặt ngay
+                                                </label>
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="btn product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                                <label>
+                                                    Ngày khác
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        Ngày đi 19/08/2022
+                                    </p>
+                                    <p class="btn-promotion">đã bao gồm trong giá</p>
+                                </div>
+                                <p class="card-text hidden-xs hidden-xxs hidden-sm">
+                                    <small class="text-muted">Vé máy bay khứ hồi Vietravel Airlines + Phòng Standard + Ăn sáng</small>
+                                </p>
+                                <div class="product-item__detail__review mb-3 d-none d-lg-flex">
+                                    <div class="product-item__detail__review--point">
+                                        <span class="mb-2">10</span>
+                                    </div>
+                                    <div class="product-item__detail__review--feedback">
+                                        <h6 class="mb-1 fw-bold">Tuyệt vời</h6>
+                                    </div>
+                                </div>
+                                <div class="product-item__detail__location d-none d-lg-block">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    96 Xuân Diệu, Quy Nhơn, Việt Nam
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 product-item__summary">
+                            <span class="tour-item__footer__add-to-compare hardCode d-none">
+                                <i class="icon icon--plus me-1"></i>
+                                Thêm vào so sánh
+                            </span>
+                            <div class="product-item__summary__price d-none d-lg-block">
+                                <div class="card-text price-min">
+                                    Giá chỉ từ
+                                </div>
+                                <div class="product-item__summary__price--old">
+                                </div>
+                                <div class="">
+                                    <span class="product-item__summary__price--current product-item__summary__price--current__number">2,890,000₫</span>
+                                    <span class="product-item__summary__price--current&amp;__text">/khách</span>
+                                </div>
+                                <p class="card-text">
+                                    Ngày đi 19/08/2022
+                                </p>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="btn btn-sm product-item__summary__btn-login open-calendar-link" data-departureid="1" data-comboid="cc68257e-1d96-4326-bccd-79a86b51621f" data-urlrewrite="combo-du-lichCombo-3N2d-Vietnam-Taste-Quy-Nhon-4-sao-vCB0522011">
+                                            Ngày khác
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="/Booking/ComboBooking?maCombo=CB0522011&amp;tourId=3931872f-5a96-4b29-bb70-86c829f1c802&amp;soNguoiLon=1&amp;soTreEm=0&amp;soTreNho=0&amp;soEmBe=0" class="btn btn-primary btn-sm">
+                                            <label>
+                                                Đặt ngay
+                                            </label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="btn-promotion mb-2">đã bao gồm trong giá</p>
+                            </div>
+                            <div class="product-item__summary__review mb-3 d-lg-none">
+                                <div class="product-item__summary__review--point">
+                                    <span>10</span>
+                                </div>
+                                <div class="product-item__summary__review--feedback">
+                                    <h6 class="mb-1 fw-bold hardCode">Rất tốt</h6>
+                                    <p class="mb-1">267 quan tâm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModalDateItem" class="modal fade modal-wide">
+                <div class="modal-dialog">
+
+                    <div class="modal-content" style="margin: 0px auto;">
+                        <form action="/Combo/_LoadComboTrangChu" enctype="multipart/form-data" id="frmDate" method="get" name="frmDate">
+                            <input name="__RequestVerificationToken" type="hidden" value="Ou3zmUgB1070YYsmtZpjFtsDsvTz7pyZs-1HY2R05kUZsYOYRZirpRaH5jwoKj8NHC6lW25GnsWyLsVoIIQZZv1HS47sPiZwIQ2KwvIftQ01"> <div class="modal-header">
+                                <div class="modal-title"><strong>CHỌN NGÀY KHỞI HÀNH</strong></div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="myModalDateContentItem">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="home-page__see-all text-end mt-4 d-lg-block">
+            <a href="/danh-sach-combo/all.aspx">
+                <button type="button" class="btn px-4 py-2 fw-bold d-inline-flex align-items-center">
+                    Xem tất cả <i class="icon icon--arrow-narrow-left ms-2"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="home-page__destination mb-4">
+        <h3 class="home-page__title mb-4">Điểm đến yêu thích</h3>
+        <div class="row g-5 g-lg-3 d-none d-lg-flex">
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-ha-noi.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_211101_Ha-noi.jpg" class="card-img-top img-fluid" alt="Hà Nội" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-ha-noi.aspx">Hà Nội</a></h5>
+                        <p class="card-text destination-item__description">Đã có 176,072 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-nang.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_200827_CAU RONG VE DEM_1.jpg" class="card-img-top img-fluid" alt="Đà Nẵng" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-nang.aspx">Đà Nẵng</a></h5>
+                        <p class="card-text destination-item__description">Đã có 80,779 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-lat.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_200914_Da Lat  (8).jpg" class="card-img-top img-fluid" alt="Đà Lạt" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-lat.aspx">Đà Lạt</a></h5>
+                        <p class="card-text destination-item__description">Đã có 50,735 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-phu-quoc.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_211014_phu-quoc.jpg" class="card-img-top img-fluid" alt="Phú Quốc" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-phu-quoc.aspx">Phú Quốc</a></h5>
+                        <p class="card-text destination-item__description">Đã có 78,510 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 g-lg-3 d-none d-lg-flex">
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-ha-noi.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_211101_Ha-noi.jpg" class="card-img-top img-fluid" alt="Hà Nội" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-ha-noi.aspx">Hà Nội</a></h5>
+                        <p class="card-text destination-item__description">Đã có 176,072 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-nang.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_200827_CAU RONG VE DEM_1.jpg" class="card-img-top img-fluid" alt="Đà Nẵng" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-nang.aspx">Đà Nẵng</a></h5>
+                        <p class="card-text destination-item__description">Đã có 80,779 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-lat.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_200914_Da Lat  (8).jpg" class="card-img-top img-fluid" alt="Đà Lạt" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-lat.aspx">Đà Lạt</a></h5>
+                        <p class="card-text destination-item__description">Đã có 50,735 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-phu-quoc.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_211014_phu-quoc.jpg" class="card-img-top img-fluid" alt="Phú Quốc" style="height:100%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-phu-quoc.aspx">Phú Quốc</a></h5>
+                        <p class="card-text destination-item__description">Đã có 78,510 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="home-page__why-vietravel mb-4">
+        <h3 class="home-page__title mb-4">Vì sao chọn Vietravel</h3>
+        <div class="row g-5 g-lg-3 d-none d-lg-flex">
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/network_wireless.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">
+                        Mạng bán tour
+                    </h5>
+                    <p class="card-text mb-1">Đầu tiên tại Việt Nam</p>
+                    <p class="card-text">Ứng dụng công nghệ mới nhất</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/network_service.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">Sản phẩm &amp; Dịch vụ</h5>
+                    <p class="card-text mb-1">Đa dạng – Chất lượng – An toàn</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/price_tag.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">Giá cả</h5>
+                    <p class="card-text mb-1">Luôn có mức giá tốt nhất</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/graphite_site.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">Đặt tour</h5>
+                    <p class="card-text mb-1">Dễ dàng &amp; nhanh chóng chỉ với 3 bước</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/cash_register.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">Thanh toán</h5>
+                    <p class="card-text mb-1">An toàn &amp; linh hoạt</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="why-item">
+                    <img src="/Content/Theme/images/cash_register.png" alt="image">
+                    <h5 class="card-text mb-3 why-item__title">Hỗ trợ</h5>
+                    <p class="card-text mb-1">Hotline &amp; trực tuyến (08h00 - 22h00)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.autoplay').slick({
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    });
+
+</script>
